@@ -1,0 +1,16 @@
+*. Basic
+	a. Always write a program in a proper alignment (keep the brakets in proper place)
+	b. Use \n
+	c. Dont use \n in scanf(),bcoz it will wait for another input 
+
+1. palindrome
+	a. For using any kind of string operation use #include<string.h>
+	b. Always try to store a character in a character pointer(char *) instead of storing in a character array
+	c. Don't use gets(),puts() function, use scanf(), printf() respectively for that
+	d. Don't use %c, use %s because %c will print different special characters
+	e. In this program strlen() is used instead of sizeof(), bcoz sizeof() will give the size of that variable but strlen will give the string lenth that variable storedi
+	f. We can't use strrev() in linux bcoz it is not defined in it
+2. concatenate
+	a. While using char * instead of array its showing segmentation fault(core dumped)
+3. lowertouppercase
+	a. while using any condition please care about looping of the string ,as in this prog if we were not used this condition like this then it will print prev characters bye looping 
